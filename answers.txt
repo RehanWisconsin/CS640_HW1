@@ -1,0 +1,22 @@
+(Q2)
+    Expected Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg-Latency_L3 = 160 ms
+    Expected Throughput: Min Throughout of L1, L2, L3 = 22.1844 Mbps
+
+(Q3)
+    2 Pairs (Expeced):
+        Latency = 
+        Throughput = Sum of Throughputs = 22 Mbps
+    
+    3 Pairs (Expected):
+        Latency = 
+        Throughput = Sum of Throughputs = 22 Mbps
+
+    2 Pairs (Actual): 
+        Latency = 
+        Throughput = 17.3356 Mbps, 8.2796 Mbps
+
+    3 Pairs (Actual):
+        Latency = 
+        Throughput = 16.574 Mbps, 5.8192 Mbps, 4.3068 Mbps
+
+(Q4)

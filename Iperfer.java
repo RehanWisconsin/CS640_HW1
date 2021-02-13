@@ -63,7 +63,7 @@ public class Iperfer {
 
         else if(server) {
             try {
-                runServer(port)
+                runServer(port);
             }
     
             catch(Exception e) {
