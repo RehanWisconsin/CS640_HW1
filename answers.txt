@@ -1,22 +1,37 @@
 (Q2)
-    Expected Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg-Latency_L3 = 160 ms
-    Expected Throughput: Min Throughout of L1, L2, L3 = 22.1844 Mbps
+    Expected Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg_Latency_L3 = 160 ms
+    Expected Throughput: Min Throughput of L1, L2, L3 = 22.1844 Mbps
 
 (Q3)
     2 Pairs (Expeced):
-        Latency = 
-        Throughput = Sum of Throughputs = 22 Mbps
+        Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg_Latency_L3 = 160 ms
+        Throughput: Sum of Each Pair's Throughputs = Min Throughput of L1, L2, L3 = 22.1844 Mbps
     
     3 Pairs (Expected):
-        Latency = 
-        Throughput = Sum of Throughputs = 22 Mbps
+        Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg_Latency_L3 = 160 ms
+        Throughput: Sum of Each Pair's Throughputs = Min Throughput of L1, L2, L3 = 22.1844 Mbps
 
     2 Pairs (Actual): 
-        Latency = 
-        Throughput = 17.3356 Mbps, 8.2796 Mbps
+        Latency: 161.214 ms, 161.100 ms
+        Throughput: 17.3356 Mbps, 8.2796 Mbps
 
     3 Pairs (Actual):
-        Latency = 
-        Throughput = 16.574 Mbps, 5.8192 Mbps, 4.3068 Mbps
+        Latency: 160.983 ms, 160.662 ms, 160.674
+        Throughput: 16.574 Mbps, 5.8192 Mbps, 4.3068 Mbps
 
 (Q4)
+    h1, h4 (Expected):
+        Latency: Avg_Latency_L1 + Avg_Latency_L2 + Avg_Latency_L3 = 160 ms
+        Throughput: Min Throughput of L1, L2, L3 = 22.1844 Mbps
+
+    h5, h6 (Expected):
+        Latency: Avg_Latency_L2 + Avg_Latency_L4 + Avg_Latency_L5 = 40 ms
+        Throughput: Min Throughput of L2, L4, L5 = 27.332 Mbps
+
+    h1, h4 (Actual):
+        Latency: 161.174 ms
+        Throughput: 21.856 Mbps
+
+    h5, h6(Actual):
+        Latency: 41.110 ms
+        Throughput: 22.6908 Mbps
